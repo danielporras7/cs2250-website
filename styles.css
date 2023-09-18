@@ -7,10 +7,10 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: aqua;
+  background-color: #e5eaf5;
 }
 
-/* Apply styles to the header */
+/*  header */
 header {
   background: #000000;
   color: #fff;
@@ -31,10 +31,10 @@ nav ul li a:hover {
   color: goldenrod;
 }
 
-/* Apply styles to the home section */
+/*  home section */
 #home {
   height: 100vh;
-  background-image: url("newcity.jpg");
+  background-image: url("photos/newcity.jpg");
   opacity: 1;
   background-size: 1500px 1450px;
   display: flex;
@@ -50,13 +50,24 @@ nav ul li a:hover {
   font-family: Georgia;
 }
 
-img {
+.headshot {
   width: 200px;
   height: 200px;
   border-radius: 50%;
 }
+.linkedin-logo .github {
+  max-width: 100%;
+  height: auto;
+  margin-left: 10px auto;
+}
 
-/* Apply styles to other sections */
+ul,
+ol {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+/*  other sections */
 section {
   padding: 50px 0;
 }
@@ -81,4 +92,10 @@ h2 {
 #skills i {
   margin-left: 250px;
   scale: 170%;
+}
+
+footer {
+  background: #000000;
+  color: #fff;
+  padding: 10px;
 }
