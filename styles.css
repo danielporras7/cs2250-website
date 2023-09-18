@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: aqua;
+}
+
+/* Apply styles to the header */
+header {
+  background: #000000;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: goldenrod;
+}
+
+/* Apply styles to the home section */
+#home {
+  height: 100vh;
+  background-image: url("newcity.jpg");
+  opacity: 1;
+  background-size: 1500px 1450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  font-family: Georgia;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/* Apply styles to other sections */
+section {
+  padding: 50px 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+#about p {
+  text-align: center;
+}
+
+#skills h4 {
+  margin-left: 220px;
+  font-size: 40px;
+  color: black;
+  font-family: Georgia;
+}
+#skills p {
+  text-align: center;
+}
+#skills i {
+  margin-left: 250px;
+  scale: 170%;
+}
