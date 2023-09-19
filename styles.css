@@ -116,3 +116,13 @@ footer {
   color: #fff;
   padding: 10px;
 }
+.btn {
+  background-color: #000000;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 5px;
+  font-size: 15px;
+  font-family: Georgia;
+}
