@@ -8,13 +8,19 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #e5eaf5;
+  background-image: url("photos/newcity.jpg");
+  background-attachment: fixed;
+  opacity: 1;
+  background-size: 1500px 1450px;
+  background-repeat: no-repeat;
+  color: white;
 }
 
 /*  header */
 header {
   background: #000000;
   color: #fff;
-  padding: 10px;
+  padding: 5px;
 }
 
 nav ul {
@@ -33,17 +39,14 @@ nav ul li a:hover {
 
 /*  home section */
 #home {
-  height: 100vh;
-  background-image: url("photos/newcity.jpg");
-  opacity: 1;
-  background-size: 1500px 1450px;
+  height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .overlay {
-  padding: 20px;
+  padding: 5px;
   text-align: center;
   color: #fff;
   font-size: 30px;
@@ -97,7 +100,7 @@ h2 {
 #skills h4 {
   margin-left: 220px;
   font-size: 40px;
-  color: black;
+  color: white;
   font-family: Georgia;
 }
 #skills p {
