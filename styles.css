@@ -211,3 +211,20 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
 }
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: none;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  padding: 5px;
+}
