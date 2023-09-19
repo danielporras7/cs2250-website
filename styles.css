@@ -32,6 +32,7 @@ nav ul {
 nav ul li a {
   color: #fff;
   text-decoration: none;
+  overflow: hidden;
 }
 nav ul li a:hover {
   color: goldenrod;
@@ -39,7 +40,7 @@ nav ul li a:hover {
 
 /*  home section */
 #home {
-  height: 75vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,7 +109,6 @@ h2 {
 }
 #skills i {
   margin-left: 250px;
-  scale: 170%;
 }
 
 footer {
@@ -125,4 +125,18 @@ footer {
   margin: 5px;
   font-size: 15px;
   font-family: Georgia;
+}
+#about,
+#Hobbies {
+  background-color: black;
+}
+#skills,
+#projects {
+  background-color: white;
+
+  background-image: url("photos/city.jpg");
+  background-attachment: fixed;
+  opacity: 1;
+  background-size: 1500px 1450px;
+  background-repeat: no-repeat;
 }
