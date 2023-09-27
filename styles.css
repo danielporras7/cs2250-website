@@ -118,6 +118,7 @@ footer {
   background: #000000;
   color: #fff;
   padding: 10px;
+  background-position-x: center;
 }
 
 .glow-on-hover {
